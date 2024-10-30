@@ -14,6 +14,7 @@ Her main research interest include the Network Security and Privacy, with a part
 
 News
 ======
+- 25 October 2024 - I attended [Alice and Eve 2024 Workshop](https://alice-and-eve.github.io/2024/) in Leiden, an amazing event with an impressive lineup of interesting talks! :raised_hands:
 - 1 October 2024 - Today marks as the start of my PostDoc position at the Networked Systems group at Delft University of Technology!
 - 17 August 2024 - [Our paper entitled "Is AI a Trich or T(h)reat for Securing Programmable Data Planes?" will appear at IEEE Network Magazine](https://ieeexplore.ieee.org/abstract/document/10659323)! :raised_hands:
 - 7 August 2024 - Confirmed as Programm Commitee Member for AAAI 2025, after having served for the same position for AAAI2024 and AAAI 2023! :fire:
