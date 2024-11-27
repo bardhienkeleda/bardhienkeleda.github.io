@@ -20,7 +20,7 @@ Work experience
 ======
 * August to November 2023: **Visiting Research Scholar**
   * Purdue University
-  * Duties includes: Researching with Purdue University’s Networking and Systems Lab (PurNET) on the integration of Machine Learning (ML)-based security mechanisms on the programmable network devices
+  * Duties included: Researching with Purdue University’s Networking and Systems Lab (PurNET) on the integration of Machine Learning (ML)-based security mechanisms on the programmable network devices
   * Supervisor: Prof. Muhammad Shahbaz
 
 * October 2022 to February 2023: **Visiting Research Scholar**

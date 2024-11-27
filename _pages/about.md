@@ -14,6 +14,7 @@ Her main research interest include the Network Security and Privacy, with a part
 
 News
 ======
+- 22 November 2024 - It was fun attending [The Annual Cybersecurity Next Generation Workshop](https://csng.nl/?q=event) in Utrecht, an event that brings together Dutch (and not only) cybersecurity researchers reminding the importance of staying up-to-date with the latest developments in this field!
 - 25 October 2024 - I attended [Alice and Eve 2024 Workshop](https://alice-and-eve.github.io/2024/) in Leiden, an amazing event with an impressive lineup of interesting talks! :raised_hands:
 - 1 October 2024 - Today marks as the start of my PostDoc position at the Networked Systems group at Delft University of Technology!
 - 17 August 2024 - [Our paper entitled "Is AI a Trich or T(h)reat for Securing Programmable Data Planes?" will appear at IEEE Network Magazine](https://ieeexplore.ieee.org/abstract/document/10659323)! :raised_hands:
