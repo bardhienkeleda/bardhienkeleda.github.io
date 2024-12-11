@@ -57,32 +57,26 @@ Skills
   * Good knowledge of: HTML and Java 
 * **Other:**
   * Presentation, planning, organization, creative problem-solving, teamwork, active listening, adapability, analytical thinking, decision making and self-organisation
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
 Service 
 ======
-* TPC Member of [AAAI 2023](https://aaai-23.aaai.org)
-* TPC Member of [AAAI 2024](https://aaai.org/conference/aaai/aaai-24/)
-* TPC Member of [EXTRAAMAS 2024](https://extraamas.ehealth.hevs.ch/index.html) 
-* TPC Member of [AAAI 2025](https://aaai.org/conference/aaai/aaai-25/)
+* **Program committee**
+    * [The  International Conference on emerging Networking EXperiments and Technologies (CoNEXT) 2025](https://conferences.sigcomm.org/co-next/2025/#!/home)
+    * [AAAI Conference on Artificial Intelligence 2025](https://aaai.org/conference/aaai/aaai-25/)
+    * [AAAI Conference on Artificial Intelligence 2024](https://aaai.org/conference/aaai/aaai-24/)
+    * [The International Workshop on EXplainable and TRAnsparent AI and Multi-Agent SystemsEXTRAAMAS 2024](https://extraamas.ehealth.hevs.ch/index.html)
+    * [AAAI Conference on Artificial Intelligence 2023](https://aaai-23.aaai.org)
+* **External Reviewer**
+    * IEEE International Conference on Computer Communications (INFOCOM) 2025
+    * IEEE International Conference on Computer Communications (INFOCOM) 2024
+    * The International Symposium on Reliable Distributed Systems (SRDS) 2024
+    * Elsevier Computer Networks Journal (COMNET) 2023
+    * Italian Conference on Cybersecurity (ITASEC) 2022
+    * IEEE International Conference on Acoustics, Speech, and Signal Processing​ (ICASSP) 2022
+    * The International Conference on Information and Communication Systems (ICICS) 2021
+ 
 
-# Funding
+Funding
+======
 * Research project funding: “The-old-meets-the-new: Securing the IoT Networks through Artificial Intelligence Solutions and Emerging Technologies”; Progetti per Avvio alla Ricerca, Tipo 1, Sapienza University of Rome; Total: 1000€ (2022-2023)
 * Research project funding: “The Trick and T(h)reat of Artificial Intelligence in Programmable Network”; Progetti per Avvio alla Ricerca, Tipo 2, Sapienza University of Rome; Total: 2000€ (2023-2024)
