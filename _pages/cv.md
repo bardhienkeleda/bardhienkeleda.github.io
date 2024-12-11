@@ -25,7 +25,9 @@ Service
     * Italian Conference on Cybersecurity (ITASEC) 2022
     * IEEE International Conference on Acoustics, Speech, and Signal Processing​ (ICASSP) 2022
     * The International Conference on Information and Communication Systems (ICICS) 2021
- 
+ * **Other**
+    * Student volunteer for EuroSys 2023
+    * Student volunteer for EuroVis 2022
 
 Funding
 ======
