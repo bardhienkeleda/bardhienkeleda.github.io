@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Service and Fundings"
+title: "Service, fundings and visiting"
 permalink: /cv/
 author_profile: true
 redirect_from:
