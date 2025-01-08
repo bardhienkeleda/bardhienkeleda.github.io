@@ -12,11 +12,11 @@ redirect_from:
 Service 
 ======
 * **Program committee**
-    * [The International Workshop on EXplainable and TRAnsparent AI and Multi-Agent SystemsEXTRAAMAS 2025](https://extraamas.ehealth.hevs.ch/organization.html)
+    * [The International Workshop on EXplainable and TRAnsparent AI and Multi-Agent Systems (EXTRAAMAS) 2025](https://extraamas.ehealth.hevs.ch/organization.html)
     * [The  International Conference on emerging Networking EXperiments and Technologies (CoNEXT) 2025](https://conferences.sigcomm.org/co-next/2025/#!/home)
     * [AAAI Conference on Artificial Intelligence 2025](https://aaai.org/conference/aaai/aaai-25/)
     * [AAAI Conference on Artificial Intelligence 2024](https://aaai.org/conference/aaai/aaai-24/)
-    * [The International Workshop on EXplainable and TRAnsparent AI and Multi-Agent SystemsEXTRAAMAS 2024](https://extraamas.ehealth.hevs.ch/index.html)
+    * [The International Workshop on EXplainable and TRAnsparent AI and Multi-Agent Systems (EXTRAAMAS) 2024](https://extraamas.ehealth.hevs.ch/index.html)
     * [AAAI Conference on Artificial Intelligence 2023](https://aaai-23.aaai.org)
 * **External Reviewer**
     * IEEE International Conference on Computer Communications (INFOCOM) 2025
