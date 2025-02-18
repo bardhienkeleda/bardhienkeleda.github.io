@@ -14,6 +14,7 @@ Her research interests include applications of Machine Learning and neuro-symbol
 
 News
 ======
+- 15 January 2025 - [HotDiML 2025] (https://hotdiml.github.io/HotDiML2025/) workshop is accepted at [IEEE ICDCS 2025](https://icdcs2025.icdcs.org)! :fire:
 - 11 December 2024 - Confirmed as Shadow PC Member for CoNEXT 2025! :fire: 
 - 22 November 2024 - It was fun attending [The Annual Cybersecurity Next Generation Workshop](https://csng.nl/?q=event) in Utrecht, an event that brings together Dutch (and not only) cybersecurity researchers reminding the importance of staying up-to-date with the latest developments in this field!
 - 25 October 2024 - I attended [Alice and Eve 2024 Workshop](https://alice-and-eve.github.io/2024/) in Leiden, an amazing event with an impressive lineup of interesting talks! :raised_hands:
