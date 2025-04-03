@@ -14,6 +14,7 @@ Her research interests include applications of Machine Learning and neuro-symbol
 
 News
 ======
+- March 30 to April 3 - I am attending [ASPLOS and EuroSys 2025](https://www.asplos-conference.org), where I am also serving as volunteer! 
 - 18 February 2025 - The **ANSyA: Advanced Neuro-Symbolic Applications** workshop is accepted at [ECAI 2025](https://ecai2025.org)! :fire:
 - 15 January 2025 - [HotDiML 2025](https://hotdiml.github.io/HotDiML2025/) workshop is accepted at [IEEE ICDCS 2025](https://icdcs2025.icdcs.org)! :fire:
 - 11 December 2024 - Confirmed as Shadow PC Member for CoNEXT 2025! :fire: 
