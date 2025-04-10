@@ -34,10 +34,25 @@ Service
     * Student volunteer for EuroSys 2023
     * Student volunteer for EuroVis 2022
 
+
+Honors and Awards
+======
+* SRC JUMP 2.0 Best Paper Award, 2024 for "CARAVAN: Practical Online Learning of In-network ML Models with Labeling Agents
+* NSF CRISP Workshop Second Poster Runner-up, 2023 for "O'MINE: A Novel Collaborative DDoS Detection Mechanism for Programmable Data-Planes"
+
+
 Funding
 ======
-* Research project funding: “The-old-meets-the-new: Securing the IoT Networks through Artificial Intelligence Solutions and Emerging Technologies”; Progetti per Avvio alla Ricerca, Tipo 1, Sapienza University of Rome; Total: 1000€ (2022-2023)
 * Research project funding: “The Trick and T(h)reat of Artificial Intelligence in Programmable Network”; Progetti per Avvio alla Ricerca, Tipo 2, Sapienza University of Rome; Total: 2000€ (2023-2024)
+* Research project funding: “The-old-meets-the-new: Securing the IoT Networks through Artificial Intelligence Solutions and Emerging Technologies”; Progetti per Avvio alla Ricerca, Tipo 1, Sapienza University of Rome; Total: 1000€ (2022-2023)
+
+
+Supervised Students
+======
+* Andrea Ciccotti, Sapienza Univerity of Rome
+* Martina Sgnaolin, Master Thesis with title "Towards the White-Box Security of Programmable Dataplane Networks" @ Sapienza University of Rome
+* Elisa Berti, Master Thesis @ Sapienza University of Rome
+* Ahmed Taffal, Master Thesis with title "Assessment for Named Data Networking Through a Real Testbed" @ Sapienza University of Rome
 
 
 Visiting
