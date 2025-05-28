@@ -16,6 +16,7 @@ I am always open to collaborations and supervising motivated students. If intere
 
 News
 ======
+- 27 May 2025 - Happy to share that I will be the Social Chair for the largest AI conference in Europe [ECAI](https://ecai2025.org)! Looking forward to organizing cool things! :fire:
 - 4 April 2025 - O'MINE accepted to Euro S&P '25! 
 - March 30 to April 3 2025 - I am attending [ASPLOS and EuroSys 2025](https://www.asplos-conference.org), where I am also serving as a volunteer! 
 - 18 February 2025 - The **ANSyA: Advanced Neuro-Symbolic Applications** workshop is accepted at [ECAI 2025](https://ecai2025.org)! :fire:
