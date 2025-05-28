@@ -7,4 +7,4 @@ venue: "Advanced Information System Security and Blockchain course of Computer S
 date: 2025-05-16
 location: "Rome, Italy"
 ---
-[Access the talk presentation here](https://drive.google.com/file/d/1dfSf4S4_se2VgMTbSu9P_CAoiXitKNKJ/view?usp=share_link)
+[Access the talk presentation here](https://drive.google.com/file/d/1dfSf4S4_se2VgMTbSu9P_CAoiXitKNKJ/view)
