@@ -16,6 +16,7 @@ Service
     * Organizing Chair at [the 1st Workshop on Advanced Neuro-Symbolic Applications (ANSyA) 2025](https://ansya-workshop.github.io/2025/), co-located with [ECAI 2025](https://ecai2025.org) (CORE:A)
     * Social Chair at [the 28th European Conference on Artificial Intelligence](https://ecai2025.org)
 * **Program committee**
+    * [AAAI Conference on Artificial Intelligence 2026](https://aaai.org/conference/aaai/aaai-26/)
     * [The International Workshop on EXplainable and TRAnsparent AI and Multi-Agent Systems (EXTRAAMAS) 2025](https://extraamas.ehealth.hevs.ch/organization.html)
     * [The  International Conference on emerging Networking EXperiments and Technologies (CoNEXT) 2025](https://conferences.sigcomm.org/co-next/2025/#!/home)
     * [AAAI Conference on Artificial Intelligence 2025](https://aaai.org/conference/aaai/aaai-25/)
@@ -23,6 +24,7 @@ Service
     * [The International Workshop on EXplainable and TRAnsparent AI and Multi-Agent Systems (EXTRAAMAS) 2024](https://extraamas.ehealth.hevs.ch/index.html)
     * [AAAI Conference on Artificial Intelligence 2023](https://aaai-23.aaai.org)
 * **External Reviewer**
+    * European Symposium 
     * IEEE International Conference on Computer Communications (INFOCOM) 2025
     * IEEE International Conference on Computer Communications (INFOCOM) 2024
     * The International Symposium on Reliable Distributed Systems (SRDS) 2024
@@ -50,7 +52,12 @@ Funding
 
 Supervised Students
 ======
-* Andrea Ciccotti, Sapienza Univerity of Rome
+* Johannes Ijpma, TU Delft (co-supervised with Dr. Kees Kroep; expected graduation Jul 2026) 
+* Raoul Saad, TU Delft (expected graduation Jul 2026) 
+* Anna Visman, TU Delft (expected graduation Jul 2026)
+* Sofia Burkow, TU Delft (co-supervised with Dr. Andrea Agiollo; expected graduation Jul 2026)
+* Manya Narkar, TU Delft (expected graduation Jul 2026)
+* Andrea Ciccotti, Sapienza Univerity of Rome (expected graduation Jan 2026)
 * Martina Sgnaolin, Master Thesis with title "Towards the White-Box Security of Programmable Dataplane Networks" @ Sapienza University of Rome
 * Elisa Berti, Master Thesis @ Sapienza University of Rome
 * Ahmed Taffal, Master Thesis with title "Assessment for Named Data Networking Through a Real Testbed" @ Sapienza University of Rome

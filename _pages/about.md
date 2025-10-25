@@ -16,6 +16,10 @@ I am always open to collaborations and supervising motivated students. If intere
 
 News
 ======
+- 20 July 2025 - Together with the other organizers of [HotDiML 2025](https://hotdiml.github.io/HotDiML2025/) co-located with ICDCS 2026 in Glasgow (UK), we hosted an amazing first edition of this workshop. It was a buzzing experience, with fruitful discussions and satisfactory engagement. A second edition of HotDiML will be reproposed soon, stay tuned! 
+<p><img src="/images/about/HotDiML/organizers.jpg" width="250" style="e2.jpg" width="250" style="margin-right"</p>
+- 14 July 2025 - I was invited to serve on the Program Committee for the 40th Conference on Artificial Intelligence (AAAI-26).
+- 30 June - 4 July 2025 - It was a pleasure to be back in the lovely Venice, for IEEE Euro S&P 2025, where our new paper [O'MINE]() appeared for publication. O'MINE is a novel distributed DDoS detection mechansims, designed for programmable data-plane devices. Thanks to all the co-authors for this fruitful collaboration! :fire:
 - 27 May 2025 - Happy to share that I will be the Social Chair for the largest AI conference in Europe [ECAI](https://ecai2025.org)! Looking forward to organizing cool things! :fire:
 - 4 April 2025 - O'MINE accepted to Euro S&P '25! 
 - March 30 to April 3 2025 - I am attending [ASPLOS and EuroSys 2025](https://www.asplos-conference.org), where I am also serving as a volunteer! 
