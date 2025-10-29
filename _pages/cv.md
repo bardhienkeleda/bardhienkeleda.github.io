@@ -24,7 +24,8 @@ Service
     * [The International Workshop on EXplainable and TRAnsparent AI and Multi-Agent Systems (EXTRAAMAS) 2024](https://extraamas.ehealth.hevs.ch/index.html)
     * [AAAI Conference on Artificial Intelligence 2023](https://aaai-23.aaai.org)
 * **External Reviewer**
-    * European Symposium 
+    * European Symposium on Research in Computer Security (ESORICS) 2025
+    * IEEE Global Communications Conference (GLOBECOM) 2025
     * IEEE International Conference on Computer Communications (INFOCOM) 2025
     * IEEE International Conference on Computer Communications (INFOCOM) 2024
     * The International Symposium on Reliable Distributed Systems (SRDS) 2024
