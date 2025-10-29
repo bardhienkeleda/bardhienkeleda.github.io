@@ -15,8 +15,10 @@ Service
     * Organizing Chair at [the 1st Workshop on Hot Topics in Distributed Machine Learning (HotDiML) 2025](https://hotdiml.github.io/HotDiML2025/), co-located with [IEEE ICDCS 2025](https://icdcs2025.icdcs.org) (CORE:A)
     * Organizing Chair at [the 1st Workshop on Advanced Neuro-Symbolic Applications (ANSyA) 2025](https://ansya-workshop.github.io/2025/), co-located with [ECAI 2025](https://ecai2025.org) (CORE:A)
     * Social Chair at [the 28th European Conference on Artificial Intelligence](https://ecai2025.org)
+    * Organizing Chair for the [TU Delft Networked Systems](https://www.tudelft.nl/en/eemcs/the-faculty/departments/software-technology/networked-systems) Peers Meeting 
 * **Program committee**
     * [AAAI Conference on Artificial Intelligence 2026](https://aaai.org/conference/aaai/aaai-26/)
+    * [The ACM/SIGAPP Symposium On Applied Computing ASH Track 2026](https://ash-sac.github.io/ash2026/index.html)
     * [The International Workshop on EXplainable and TRAnsparent AI and Multi-Agent Systems (EXTRAAMAS) 2025](https://extraamas.ehealth.hevs.ch/organization.html)
     * [The  International Conference on emerging Networking EXperiments and Technologies (CoNEXT) 2025](https://conferences.sigcomm.org/co-next/2025/#!/home)
     * [AAAI Conference on Artificial Intelligence 2025](https://aaai.org/conference/aaai/aaai-25/)
