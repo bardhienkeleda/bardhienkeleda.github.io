@@ -2,7 +2,7 @@
 title: "Sim2Testbed Transfer: NDN Performance Evaluation"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
+permalink: /publication/2024-02-17-paper-title-number-5
 excerpt: 'The paper proposes a setup of an NDN testbed composed of Raspberry Pi devices. After that, we conduct performance analysis for crucial NDN features such as name-based forwarding, in-network caching, and data packet signing.'
 date: 2022-08-23
 venue: 'Proceedings of the 17th International Conference on Availability, Reliability and Security'

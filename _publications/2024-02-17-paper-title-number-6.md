@@ -2,7 +2,7 @@
 title: "GNN4IFA: Interest Flooding Attack Detection with Graph Neural Networks"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
+permalink: /publication/2024-02-17-paper-title-number-6
 excerpt: 'In the context of Information-Centric Networking, Interest Flooding Attacks (IFAs) represent a new and dangerous sort of distributed denial of service. Since existing proposals targeting IFAs mainly focus on local information, in this paper we propose GNN4IFA as the first mechanism exploiting complex non-local knowledge for IFA detection by leveraging Graph Neural Networks (GNNs) handling the overall network topology.'
 date: 2023-07-03
 venue: '2023 IEEE 8th European Symposium on Security and Privacy (EuroS&P)'

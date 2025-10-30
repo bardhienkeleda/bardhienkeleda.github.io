@@ -22,11 +22,11 @@ repository               : "bardhienkeleda/bardhienkeleda.github.io"
 author:
   # Biographic information
   avatar           : "profile1.png"
-  name             : "Enkeleda Bardhi, PhD"
+  name             : "Dr. Enkeleda Bardhi"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Researcher"
   location         : "Delft, Netherlands"
-  employer         : "Delft University of Technology"
+  employer         : "TU Delft"
   uri              : # URL
   email            : "EBardhi1@tudelft.nl"
 

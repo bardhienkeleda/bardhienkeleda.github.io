@@ -1,8 +1,8 @@
 ---
-title: "Caravan: Practical Online Learning of {In-Network}{ML} Models with Labeling Agents"
+title: "Caravan: Practical Online Learning of In-Network ML Models with Labeling Agents"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
+permalink: /publication/2024-02-17-paper-title-number-7
 excerpt: 'This paper presents CARAVAN, a practical online learning system for in-network ML models. We tackle two primary challenges in facilitating online learning for networking: (a) the automatic labeling of evolving traffic and (b) the efficient monitoring and detection of model performance degradation to trigger retraining.'
 date: 2024-08-02
 venue: '18th USENIX Symposium on Operating Systems Design and Implementation (OSDI 24)'
