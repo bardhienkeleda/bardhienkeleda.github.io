@@ -17,6 +17,7 @@ Service
     * Social Chair at [the 28th European Conference on Artificial Intelligence](https://ecai2025.org)
     * Organizing Chair for the [TU Delft Networked Systems](https://www.tudelft.nl/en/eemcs/the-faculty/departments/software-technology/networked-systems) Peers Meeting 
 * **Program committee**
+    * [European Symposium in Security & Privacy (Euro S&P) 2026](https://eurosp2026.ieee-security.org/committee-program.html)
     * [AAAI Conference on Artificial Intelligence 2026](https://aaai.org/conference/aaai/aaai-26/)
     * [The ACM/SIGAPP Symposium On Applied Computing ASH Track 2026](https://ash-sac.github.io/ash2026/index.html)
     * [The International Workshop on EXplainable and TRAnsparent AI and Multi-Agent Systems (EXTRAAMAS) 2025](https://extraamas.ehealth.hevs.ch/organization.html)
