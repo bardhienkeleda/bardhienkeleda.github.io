@@ -379,44 +379,43 @@
 
 <script>
   // Configuration
-  const MAX_ITEMS = 10; // Change this number to show more/less items initially
+  const MAX_ITEMS = 10;
   const listContainer = document.getElementById('news-list');
   const btn = document.getElementById('show-more-btn');
 
-  // Wait for the DOM to be fully loaded
   document.addEventListener("DOMContentLoaded", function() {
-    // Find the <ul> or <ol> inside the news-list div
-    const list = listContainer.querySelector('ul, ol');
-    if (!list) return;
+    // FIX: Select ALL list items inside the news-list div, 
+    // regardless of how many <ul> tags the parser created.
+    const items = listContainer.querySelectorAll('li');
 
-    const items = list.querySelectorAll('li');
-    
-    // Hide items beyond the limit
     if (items.length > MAX_ITEMS) {
+      // Hide items starting from the limit
       for (let i = MAX_ITEMS; i < items.length; i++) {
         items[i].style.display = 'none';
       }
-      btn.style.display = 'inline-block'; // Show the button
+      btn.style.display = 'block'; // Show the button
     } else {
-      btn.style.display = 'none'; // Hide button if few items
+      btn.style.display = 'none'; // Hide button if not enough items
     }
   });
 
   function toggleNews() {
-    const list = listContainer.querySelector('ul, ol');
-    const items = list.querySelectorAll('li');
+    const items = listContainer.querySelectorAll('li');
     const btn = document.getElementById('show-more-btn');
     const isExpanded = btn.getAttribute('data-expanded') === 'true';
 
     if (isExpanded) {
-      // Collapse
+      // Collapse: Hide elements beyond MAX_ITEMS
       for (let i = MAX_ITEMS; i < items.length; i++) {
         items[i].style.display = 'none';
       }
       btn.innerHTML = 'Show more';
       btn.setAttribute('data-expanded', 'false');
+      
+      // Optional: Scroll back to the top of the list when collapsing
+      // listContainer.scrollIntoView({ behavior: 'smooth' });
     } else {
-      // Expand
+      // Expand: Show all elements
       for (let i = MAX_ITEMS; i < items.length; i++) {
         items[i].style.display = 'list-item';
       }
