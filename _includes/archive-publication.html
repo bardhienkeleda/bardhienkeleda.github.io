@@ -1,0 +1,49 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="publication-item" style="display: flex; gap: 15px; margin-bottom: 25px; align-items: flex-start;">
+  
+  <div class="publication-tag" style="min-width: 80px; font-weight: bold;">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" style="text-decoration: none; color: #007bff;">{{ post.venue_tag }}</a>
+    {% elsif post.link %}
+      <a href="{{ post.link }}" style="text-decoration: none; color: #007bff;">{{ post.venue_tag }}</a>
+    {% else %}
+      {{ post.venue_tag }}
+    {% endif %}
+  </div>
+
+  <div class="publication-details" style="flex-grow: 1;">
+    
+    <div style="display: flex; justify-content: space-between; align-items: baseline;">
+      <span style="font-weight: bold; font-size: 1.1em;">
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" style="color: inherit; text-decoration: none;">{{ title }}</a>
+        {% else %}
+          {{ title }}
+        {% endif %}
+      </span>
+      <span style="font-size: 0.85em; text-transform: uppercase; color: gray; margin-left: 10px; white-space: nowrap;">
+        {{ post.venue_type }}
+      </span>
+    </div>
+
+    <div style="font-size: 0.95em; margin-top: 4px;">
+      {{ post.authors }}
+      <span style="font-style: italic;">, {{ post.venue }}</span>
+      {% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+    </div>
+
+    {% if post.oneliner %}
+      <div style="font-size: 0.9em; margin-top: 6px; color: #555;">
+        <strong>Oneliner:</strong> <i>{{ post.oneliner }}</i>
+      </div>
+    {% endif %}
+
+  </div>
+</div>
