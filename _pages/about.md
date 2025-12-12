@@ -40,8 +40,8 @@ She is always open to collaborations and supervising motivated students. If inte
 <details>
 <summary style="cursor: pointer; color: #007bff;">📸 Bits from HotDiML 2025</summary>
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
-<img src="/images/about/HotDiML/opening.jpg" style="height: 150px; object-fit: cover; border-radius: 5px;">
-<img src="/images/about/HotDiML/keynote.jpg" style="height: 150px; object-fit: cover; border-radius: 5px;">
+<img src="/images/about/HotDiML/opening.JPG" style="height: 150px; object-fit: cover; border-radius: 5px;">
+<img src="/images/about/HotDiML/keynote.JPG" style="height: 150px; object-fit: cover; border-radius: 5px;">
 <img src="/images/about/HotDiML/best_paper.jpg" style="height: 150px; object-fit: cover; border-radius: 5px;">
 </div>
 <p style="font-size: 0.8em; color: gray; margin-top: 5px;">(Left) Opening remarks, (Middle) Keynote, (Right) Best paper award.</p>
