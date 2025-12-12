@@ -37,8 +37,9 @@ Service
     * IEEE International Conference on Acoustics, Speech, and Signal Processing​ (ICASSP) 2022
     * The International Conference on Information and Communication Systems (ICICS) 2021
  * **Other**
-    * Volunteer for ASPLOS and EuroSys 2025
-    * Student volunteer for EuroSys 2023
+    * Local Arrangement Chair for [TMA 2026](https://tma.ifip.org/2026/committee/)
+    * Volunteer for ASPLOS 2025
+    * Student volunteer for EuroSys 2023 and 2025
     * Student volunteer for EuroVis 2022
 
 

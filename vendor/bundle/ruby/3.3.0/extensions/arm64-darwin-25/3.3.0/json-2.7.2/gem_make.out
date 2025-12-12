@@ -1,0 +1,16 @@
+current directory: /Users/ebardhi1/Desktop/work/website/bardhienkeleda.github.io/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+/Users/ebardhi1/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/ebardhi1/Desktop/work/website/bardhienkeleda.github.io/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20251212-87672-o8u7ji sitelibdir\=./.gem.20251212-87672-o8u7ji clean
+
+current directory: /Users/ebardhi1/Desktop/work/website/bardhienkeleda.github.io/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20251212-87672-o8u7ji sitelibdir\=./.gem.20251212-87672-o8u7ji
+make: Nothing to be done for `all'.
+
+current directory: /Users/ebardhi1/Desktop/work/website/bardhienkeleda.github.io/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20251212-87672-o8u7ji sitelibdir\=./.gem.20251212-87672-o8u7ji install
+
+current directory: /Users/ebardhi1/Desktop/work/website/bardhienkeleda.github.io/vendor/bundle/ruby/3.3.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20251212-87672-o8u7ji sitelibdir\=./.gem.20251212-87672-o8u7ji clean
