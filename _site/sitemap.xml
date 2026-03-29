@@ -45,12 +45,12 @@
 <lastmod>2024-08-02T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/publication/2024-02-17-paper-title-number-8</loc>
-<lastmod>2024-08-02T00:00:00-07:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/publication/2015-10-01-paper-title-number-3</loc>
 <lastmod>2024-08-29T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/publication/2024-02-17-paper-title-number-8</loc>
+<lastmod>2025-07-02T00:00:00-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/talks/2014-02-01-talk-2</loc>

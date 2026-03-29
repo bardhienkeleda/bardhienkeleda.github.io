@@ -6,18 +6,45 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Enkeleda Bardhi is a Postdoctoral Researcher at the at the [Networked Systems Group]("https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/networked-systems") at [TU Delft](https://www.tudelft.nl/en/), working with [Prof. Fernando Kuipers]("https://scholar.google.com/citations?user=W9BWce4AAAAJ&hl=it&oi=ao") on [Future Network Services (FNS) project]("https://futurenetworkservices.nl").
+I am a Postdoctoral Researcher at the at the [Networked Systems Group]("https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/networked-systems") at [TU Delft](https://www.tudelft.nl/en/), where I work with [Prof. Fernando Kuipers]("https://scholar.google.com/citations?user=W9BWce4AAAAJ&hl=it&oi=ao") on the [Future Network Services (FNS) project]("https://futurenetworkservices.nl").
 
-She obtained her Ph.D. from Sapienza University of Rome in 2024. Her academic background includes research positions at DIAG (Sapienza University), the [SPRITZ Research Group (University of Padua)](https://spritz.math.unipd.it/), and internship roles during her PhD at Purdue University (PurNet) hosted by [Dr. Muhammad Shahbaz](https://scholar.google.com/citations?hl=it&user=UhWjpNMAAAAJ) and TU Delft hosted by Prof. Fernando Kuipers.
+I obtained my Ph.D. from Sapienza University of Rome in 2024. My academic background includes research positions at the Cybersecurity Group (DIAG, Sapienza University), the [SPRITZ Research Group (University of Padua)](https://spritz.math.unipd.it/), and internship roles at Purdue University (PurNet Group), hosted by [Dr. Muhammad Shahbaz](https://scholar.google.com/citations?hl=it&user=UhWjpNMAAAAJ) and TU Delft (Networked Systems Group), hosted by Prof. Fernando Kuipers.
 
-Her research focuses on network security, programmability, and neuro-symbolic AI applications in networking. Specifically, she develops robust ML-based solutions for traffic classification and network intrusion detection systems in programmable networks. Additionally, she leverages neuro-symbolic AI architectures to build transparent and interpretable network security systems. Lastly, her work explores how language models can assist Security Operations Centers (SOC) by reducing alert fatigue and streamlining rule generation. Her work has been published in top-tier venues including USENIX OSDI, IEEE Euro S&P, Elsevier FGCS, IEEE COMST, IEEE Network, IEEE LCN, and ACM ARES.
+My research focuses on cybersecurity, programmability, and neuro-symbolic AI applications in networking. Specifically, I develop: (i) robust ML-based solutions for traffic classification and network intrusion detection systems; (ii) neuro-symbolic AI architectures to build transparent and interpretable network security systems; and language models applications to assist Security Operations Centers (SOC) by reducing alert fatigue and streamlining rule generation. 
 
-She is always open to collaborations and supervising motivated students. If interested, please drop an [e-mail](mailto:E.Bardhi-1@tudelft.nl).
+My work has been published in top-tier venues including USENIX OSDI, IEEE Euro S&P, Elsevier FGCS, IEEE COMST, IEEE Network, IEEE LCN, and ACM ARES.
+
+I am always open to collaborations and supervising motivated students. If you are interested in working together, please feel free to drop an [e-mail](mailto:E.Bardhi-1@tudelft.nl).
 
 # Recent News
 
 <div id="news-list">
 <ul style="list-style-type: disc; margin-left: 20px; padding-left: 0;">
+<li>
+<strong>[March 2026]</strong> --> <a href="https://hotdisec.github.io/website_2026/">HotDiSec 2026</a> has been officially accepted as a co-located workshop at ESORICS 2026, taking place this September!
+</li>
+<li>
+<strong>[March 2026]</strong> -->  Had a blast at the <a href="https://security1.win.tue.nl/doku.php?id=start">Security Group at TU/e</a>, talking all things at intersection of systems and security at the edge. Thanks for having me!
+<details>
+<summary style="cursor: pointer; color: #007bff;">📸 Bits from the talk</summary>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+<img src="/images/about/invited_talks/TUe_talk.jpg" style="height: 150px; object-fit: cover; border-radius: 5px;">
+</div>
+<p style="font-size: 0.8em; color: gray; margin-top: 5px;">March 19, 2026, TU Eindhoven, Security Group.</p>
+</details>
+</li>
+<li>
+<strong>[March 2026]</strong> --> Joined as Editorial Board Program of  <a href="https://www.sciencedirect.com/journal/computer-networks">Elsevier Computer Networks</a>.
+</li>
+<li>
+<strong>[March 2026]</strong> --> Joined the Program Committee of <a href="https://www.acsac.org">ACSAC 2026</a>.
+</li>
+<li>
+<strong>[March 2026]</strong> --> Joined the Program Committee of <a href="https://www.compsys.science/conference/current/">CompSys 2026</a>.
+</li>
+<li>
+<strong>[February 2026]</strong> --> Joined the Program Committee of <a href="https://rasacc-dsn.github.io/rasacc26/">DSN RASACC 2026</a>.
+</li>
 <li>
 <strong>[November 2025]</strong> --> Joined the Program Committee of <a href="https://eurosp2026.ieee-security.org">Euro S&P 2026</a>.
 </li>
