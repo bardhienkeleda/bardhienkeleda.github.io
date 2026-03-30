@@ -12,11 +12,17 @@ redirect_from:
 Service 
 ======
 * **Organizing committee**
+    * Organizing Chair at [the International Workshop on Hot Topics at the Intersection of Distributed Machine Learning and Security (HotDiSec) 2026](https://hotdisec.github.io/website_2026/), co-located with [ESORICS 2026](https://sites.google.com/di.uniroma1.it/esorics2026/) (CORE:A)
     * Organizing Chair at [the 1st Workshop on Hot Topics in Distributed Machine Learning (HotDiML) 2025](https://hotdiml.github.io/HotDiML2025/), co-located with [IEEE ICDCS 2025](https://icdcs2025.icdcs.org) (CORE:A)
     * Organizing Chair at [the 1st Workshop on Advanced Neuro-Symbolic Applications (ANSyA) 2025](https://ansya-workshop.github.io/2025/), co-located with [ECAI 2025](https://ecai2025.org) (CORE:A)
-    * Social Chair at [the 28th European Conference on Artificial Intelligence](https://ecai2025.org)
+    * Social Chair at [the 28th European Conference on Artificial Intelligence (ECAI 2025)](https://ecai2025.org)
+    * Local Arrangement Chair for [TMA 2026](https://tma.ifip.org/2026/committee/)
     * Organizing Chair for the [TU Delft Networked Systems](https://www.tudelft.nl/en/eemcs/the-faculty/departments/software-technology/networked-systems) Peers Meeting 
 * **Program committee**
+    * [ACSAC 2026](https://www.acsac.org)
+    * [Editorial Board for Elsevier Computer Networks](https://www.sciencedirect.com/journal/computer-networks)
+    * [CompSys 2026](https://www.compsys.science/conference/current/)
+    * [DSN RASACC 2026](https://rasacc-dsn.github.io/rasacc26/)
     * [European Symposium in Security & Privacy (Euro S&P) 2026](https://eurosp2026.ieee-security.org/committee-program.html)
     * [AAAI Conference on Artificial Intelligence 2026](https://aaai.org/conference/aaai/aaai-26/)
     * [The ACM/SIGAPP Symposium On Applied Computing ASH Track 2026](https://ash-sac.github.io/ash2026/index.html)
@@ -37,10 +43,27 @@ Service
     * IEEE International Conference on Acoustics, Speech, and Signal Processing​ (ICASSP) 2022
     * The International Conference on Information and Communication Systems (ICICS) 2021
  * **Other**
-    * Local Arrangement Chair for [TMA 2026](https://tma.ifip.org/2026/committee/)
     * Volunteer for ASPLOS 2025
     * Student volunteer for EuroSys 2023 and 2025
     * Student volunteer for EuroVis 2022
+
+
+Students
+======
+
+**Currently supervising**
+* Joaquin Cava Angrill, TU Delft (expected graduation Dec 2026)
+* Johannes Ijpma, TU Delft (co-supervised with Dr. Kees Kroep; expected graduation Jul 2026) 
+* Raoul Saad, TU Delft (expected graduation Jul 2026) 
+* Anna Visman, TU Delft (expected graduation Jul 2026)
+* Sofia Burkow, TU Delft (co-supervised with Dr. Andrea Agiollo; expected graduation Jul 2026)
+* Manya Narkar, TU Delft (expected graduation Jul 2026)
+
+**Graduated**
+* Andrea Ciccotti, Sapienza Univerity of Rome (graduated Jan 2026)
+* Martina Sgnaolin, Master Thesis with title "Towards the White-Box Security of Programmable Dataplane Networks" @ Sapienza University of Rome
+* Elisa Berti, Master Thesis @ Sapienza University of Rome
+* Ahmed Taffal, Master Thesis with title "Assessment for Named Data Networking Through a Real Testbed" @ Sapienza University of Rome
 
 
 Honors and Awards
@@ -53,19 +76,6 @@ Funding
 ======
 * Research project funding: “The Trick and T(h)reat of Artificial Intelligence in Programmable Network”; Progetti per Avvio alla Ricerca, Tipo 2, Sapienza University of Rome; Total: 2000€ (2023-2024)
 * Research project funding: “The-old-meets-the-new: Securing the IoT Networks through Artificial Intelligence Solutions and Emerging Technologies”; Progetti per Avvio alla Ricerca, Tipo 1, Sapienza University of Rome; Total: 1000€ (2022-2023)
-
-
-Supervised Students
-======
-* Johannes Ijpma, TU Delft (co-supervised with Dr. Kees Kroep; expected graduation Jul 2026) 
-* Raoul Saad, TU Delft (expected graduation Jul 2026) 
-* Anna Visman, TU Delft (expected graduation Jul 2026)
-* Sofia Burkow, TU Delft (co-supervised with Dr. Andrea Agiollo; expected graduation Jul 2026)
-* Manya Narkar, TU Delft (expected graduation Jul 2026)
-* Andrea Ciccotti, Sapienza Univerity of Rome (expected graduation Jan 2026)
-* Martina Sgnaolin, Master Thesis with title "Towards the White-Box Security of Programmable Dataplane Networks" @ Sapienza University of Rome
-* Elisa Berti, Master Thesis @ Sapienza University of Rome
-* Ahmed Taffal, Master Thesis with title "Assessment for Named Data Networking Through a Real Testbed" @ Sapienza University of Rome
 
 
 Visiting
