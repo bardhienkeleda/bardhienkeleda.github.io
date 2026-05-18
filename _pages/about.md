@@ -21,6 +21,12 @@ I am always open to collaborations and supervising motivated students. If you ar
 <div id="news-list">
 <ul style="list-style-type: disc; margin-left: 20px; padding-left: 0;">
 <li>
+<strong>[April 2026]</strong> --> Joined the TU Delft Postdoc Network Committee.
+</li>
+<li>
+<strong>[April 2026]</strong> --> Joined as Fellowship Co-Chair for  <a href="https://n2women.comsoc.org">N2 Women</a>.
+</li>
+<li>
 <strong>[March 2026]</strong> --> <a href="https://hotdisec.github.io/website_2026/">HotDiSec 2026</a> has been officially accepted as a co-located workshop at ESORICS 2026, taking place this September!
 </li>
 <li>
@@ -32,12 +38,6 @@ I am always open to collaborations and supervising motivated students. If you ar
 </div>
 <p style="font-size: 0.8em; color: gray; margin-top: 5px;">March 19, 2026, TU Eindhoven, Security Group.</p>
 </details>
-</li>
-<li>
-<strong>[April 2026]</strong> --> Joined the TU Delft Postdoc Network Committee.
-</li>
-<li>
-<strong>[April 2026]</strong> --> Joined as Fellowship Co-Chair for  <a href="https://n2women.comsoc.org">N2 Women</a>.
 </li>
 <li>
 <strong>[March 2026]</strong> --> Joined as Editor for  <a href="https://www.sciencedirect.com/journal/computer-networks">Elsevier Computer Networks</a>.
