@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Postdoctoral Researcher at the at the [Networked Systems Group]("https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/networked-systems") at [TU Delft](https://www.tudelft.nl/en/), where I work with [Prof. Fernando Kuipers]("https://scholar.google.com/citations?user=W9BWce4AAAAJ&hl=it&oi=ao") on the [Future Network Services (FNS) project]("https://futurenetworkservices.nl").
+I am a Postdoctoral Researcher at the [Networked Systems Group]("https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/networked-systems") at [TU Delft](https://www.tudelft.nl/en/), where I work with [Prof. Fernando Kuipers]("https://scholar.google.com/citations?user=W9BWce4AAAAJ&hl=it&oi=ao") on the [Future Network Services (FNS) project]("https://futurenetworkservices.nl").
 
 I obtained my Ph.D. from Sapienza University of Rome in 2024. My academic background includes research positions at the Cybersecurity Group (DIAG, Sapienza University), the [SPRITZ Research Group (University of Padua)](https://spritz.math.unipd.it/), and internship roles at Purdue University (PurNet Group), hosted by [Dr. Muhammad Shahbaz](https://scholar.google.com/citations?hl=it&user=UhWjpNMAAAAJ) and TU Delft (Networked Systems Group), hosted by Prof. Fernando Kuipers.
 
@@ -34,7 +34,13 @@ I am always open to collaborations and supervising motivated students. If you ar
 </details>
 </li>
 <li>
-<strong>[March 2026]</strong> --> Joined as Editorial Board Program of  <a href="https://www.sciencedirect.com/journal/computer-networks">Elsevier Computer Networks</a>.
+<strong>[April 2026]</strong> --> Joined the TU Delft Postdoc Network Committee.
+</li>
+<li>
+<strong>[April 2026]</strong> --> Joined as Fellowship Co-Chair for  <a href="https://n2women.comsoc.org">N2 Women</a>.
+</li>
+<li>
+<strong>[March 2026]</strong> --> Joined as Editor for  <a href="https://www.sciencedirect.com/journal/computer-networks">Elsevier Computer Networks</a>.
 </li>
 <li>
 <strong>[March 2026]</strong> --> Joined the Program Committee of <a href="https://www.acsac.org">ACSAC 2026</a>.

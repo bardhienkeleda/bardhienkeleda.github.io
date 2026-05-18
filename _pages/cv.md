@@ -52,12 +52,15 @@ Students
 ======
 
 **Currently supervising**
-* Joaquin Cava Angrill, TU Delft (expected graduation Dec 2026)
-* Johannes Ijpma, TU Delft (co-supervised with Dr. Kees Kroep; expected graduation Jul 2026) 
-* Raoul Saad, TU Delft (expected graduation Jul 2026) 
-* Anna Visman, TU Delft (expected graduation Jul 2026)
-* Sofia Burkow, TU Delft (co-supervised with Dr. Andrea Agiollo; expected graduation Jul 2026)
-* Manya Narkar, TU Delft (expected graduation Jul 2026)
+* Joaquin Cava Angrill, TU Delft (expected graduation December 2026)
+* Johannes Ijpma, TU Delft (co-supervised with Dr. Kees Kroep; expected graduation December 2026) 
+* Raoul Saad, TU Delft (expected graduation July 2026) 
+* Anna Visman, TU Delft (expected graduation September 2026)
+* Sofia Burkow, TU Delft (co-supervised with Dr. Andrea Agiollo; expected graduation June 2026)
+* Manya Narkar, TU Delft (expected graduation December 2026)
+
+**Starting soon**
+* Panagiotis Panagi, TU Delft (expected graduation June 2027)
 
 **Graduated**
 * Andrea Ciccotti, Sapienza Univerity of Rome (graduated Jan 2026)
