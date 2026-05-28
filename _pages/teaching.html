@@ -1,12 +1,187 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Teaching & Supervision"
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<h2> Teaching</h2>
+
+<div class="list__wrapper">
+<hr>
+
+<ul style="list-style-type: none; padding-left: 0;">
+{% assign sorted_teaching = site.teaching | sort: "date" | reverse %}
+{% for post in sorted_teaching %}
+
+  {% assign label = "📘 Other" %}
+  {% if post.type == "Guest Lecture" %}
+    {% assign label = "🎤 Guest Lecture" %}
+  {% elsif post.type == "Teaching assistant" %}
+    {% assign label = "🧑‍🏫 Teaching Assistant" %}
+  {% elsif post.type == "Instructor" %}
+    {% assign label = "🎓 Instructor" %}
+  {% endif %}
+
+  <li>
+    <span style="
+      background-color: #f2f2f2;
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-size: 0.85em;
+      margin-right: 6px;
+    ">
+      {{ label }}
+    </span>
+
+    <strong>{{ post.title }}</strong>
+    <span style="color: #555;">
+      — {{ post.venue }} ({{ post.date | date: "%B %Y" }})
+    </span>
+
+    {% if post.link %}
+      <a href="{{ post.link }}" target="_blank">[slides]</a>
+    {% endif %}
+  </li>
+
 {% endfor %}
+</ul>
+
+</div>
+
+
+<h2> Supervision</h2>
+
+<div class="list__wrapper">
+<hr>
+
+<h3>Current</h3>
+<ul style="list-style-type: none; padding-left: 0;">
+
+  <li style="margin-bottom: 0.35em;">
+    <span style="background-color:#e6f4ea; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
+      👩‍🎓 MSc Student
+    </span>
+    <strong>Joaquin Cava Angrill</strong>
+    <span style="color:#555;">
+      — “Detecting and Explaining Concept Drift for Security Applications”, TU Delft (expected December 2026)
+    </span>
+  </li>
+
+  <li style="margin-bottom: 0.35em;">
+    <span style="background-color:#e6f4ea; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
+      👩‍🎓 MSc Student
+    </span>
+    <strong>Johannes Ijpma</strong>
+    <span style="color:#555;">
+      — “Trustworthiness of Performance Metrics in RAN under Timing Degradation Attacks”, TU Delft (expected December 2026; co-supervised with Dr. Kees Kroep)
+    </span>
+  </li>
+
+  <li style="margin-bottom: 0.35em;">
+    <span style="background-color:#e6f4ea; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
+      👩‍🎓 MSc Student
+    </span>
+    <strong>Raoul Saad</strong>
+    <span style="color:#555;">
+      — Towards Local Neuro-Symbolic AI in Network Intrusion Detection Systems, TU Delft (expected July 2026)
+    </span>
+  </li>
+
+  <li style="margin-bottom: 0.35em;">
+    <span style="background-color:#e6f4ea; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
+      👩‍🎓 MSc Student
+    </span>
+    <strong>Anna Visman</strong>
+    <span style="color:#555;">
+      — “SOC False Positive Rate Reduction with a Neuro-Symbolic Approach”, TU Delft (expected September 2026)
+    </span>
+  </li>
+
+  <li style="margin-bottom: 0.35em;">
+    <span style="background-color:#e6f4ea; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
+      👩‍🎓 MSc Student
+    </span>
+    <strong>Sofia Burkow</strong>
+    <span style="color:#555;">
+      — “Temporal Neuro-Symbolic Reasoning for Multi-Step Attack Detection”, TU Delft (expected June 2026; co-supervised with Dr. Andrea Agiollo)
+    </span>
+  </li>
+
+  <li style="margin-bottom: 0.35em;">
+    <span style="background-color:#e6f4ea; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
+      👩‍🎓 MSc Student
+    </span>
+    <strong>Manya Narkar</strong>
+    <span style="color:#555;">
+      — “LLM-based Approach for IDS Rule Refinement”, TU Delft (expected December 2026)
+    </span>
+  </li>
+
+</ul>
+
+
+<h3>Starting Soon</h3>
+<ul style="list-style-type: none; padding-left: 0;">
+  <li style="margin-bottom: 0.35em;">
+    <span style="background-color:#fff4e5; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
+      ⏳ Incoming Student
+    </span>
+    <strong>Panagiotis Panagi</strong>, TU Delft 
+    <span style="color:#555;">(expected June 2027)</span>
+  </li>
+
+  <li style="margin-bottom: 0.35em;">
+    <span style="background-color:#fff4e5; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
+      ⏳ Incoming Student
+    </span>
+    <strong>Antonio Giorgino</strong>, Sapienza University of Rome 
+    <span style="color:#555;">(expected February 2027; co-supervised with Prof. Riccardo Lazzeretti)</span>
+  </li>
+</ul>
+
+<h3> Graduated</h3>
+<ul style="list-style-type: none; padding-left: 0;">
+  <li style="margin-bottom: 0.35em;">
+    <span style="background-color:#e8f0fe; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
+      🎓 MSc Thesis
+    </span>
+    <strong>Andrea Ciccotti,</strong> 
+    <span style="color:#555;"> Sapienza University of Rome </span>
+  </li>
+
+
+  <li style="margin-bottom: 0.35em;">
+    <span style="background-color:#e8f0fe; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
+      🎓 MSc Thesis → Paper
+    </span>
+    <strong>Martina Sgnaolin,</strong>
+    <span style="color:#555;">
+    “Towards the White-Box Security of Programmable Dataplane Networks”, Sapienza University of Rome
+    </span>
+    <a href="https://ieeexplore.ieee.org/abstract/document/10659323/" target="_blank">[paper]</a>
+  </li>
+
+
+  <li style="margin-bottom: 0.35em;">
+    <span style="background-color:#e8f0fe; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
+      🎓 MSc Thesis
+    </span>
+    <strong>Elisa Berti</strong>
+    <span style="color:#555;">, Sapienza University of Rome</span>
+  </li>
+
+  <li style="margin-bottom: 0.35em;">
+    <span style="background-color:#e8f0fe; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
+      🎓 MSc Thesis → Paper
+    </span>
+    <strong>Ahmed Taffal,</strong>
+    <span style="color:#555;">
+    “Assessment for Named Data Networking Through a Real Testbed”, Sapienza University of Rome
+    </span>
+    <a href="https://dl.acm.org/doi/abs/10.1145/3538969.3544447" target="_blank">[paper]</a>
+  </li>
+</ul>
+</div>

@@ -48,7 +48,7 @@ Service
     * Student volunteer for EuroVis 2022
 
 
-Students
+<!-- Students
 ======
 
 **Currently supervising**
@@ -61,12 +61,13 @@ Students
 
 **Starting soon**
 * Panagiotis Panagi, TU Delft (expected graduation June 2027)
+* Antonio Giorgino, Sapienza University of Rome (co-supervised with Prof. Riccardo Lazzeretti; expected graduation February 2027) 
 
 **Graduated**
 * Andrea Ciccotti, Sapienza Univerity of Rome (graduated Jan 2026)
 * Martina Sgnaolin, Master Thesis with title "Towards the White-Box Security of Programmable Dataplane Networks" @ Sapienza University of Rome
 * Elisa Berti, Master Thesis @ Sapienza University of Rome
-* Ahmed Taffal, Master Thesis with title "Assessment for Named Data Networking Through a Real Testbed" @ Sapienza University of Rome
+* Ahmed Taffal, Master Thesis with title "Assessment for Named Data Networking Through a Real Testbed" @ Sapienza University of Rome -->
 
 
 Honors and Awards
@@ -94,7 +95,7 @@ Visiting
     network devices.    
   * Supervisor: Prof. Fernando Kuipers
 
-  
+<!--   
 Skills
 ======
 * **Cybersecurity:**
@@ -114,4 +115,4 @@ Skills
   * High intermediate skills of: Python, C, C++, MySQL, Matlab, OpenCV
   * Good knowledge of: HTML and Java 
 * **Other:**
-  * Presentation, planning, organization, creative problem-solving, teamwork, active listening, adapability, analytical thinking, decision making and self-organisation
+  * Presentation, planning, organization, creative problem-solving, teamwork, active listening, adapability, analytical thinking, decision making and self-organisation -->

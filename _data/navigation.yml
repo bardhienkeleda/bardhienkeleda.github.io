@@ -11,7 +11,7 @@ main:
   - title: "Talks"
     url: /talks/    
 
-  - title: "Teaching"
+  - title: "Teaching & Supervision"
     url: /teaching/    
     
   #- title: "Portfolio"
@@ -20,7 +20,7 @@ main:
   #- title: "Blog Posts"
   #  url: /year-archive/
     
-  - title: "CV"
+  - title: "Service & Funding"
     url: /cv/
     
   #- title: "Guide"
