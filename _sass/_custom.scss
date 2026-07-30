@@ -89,3 +89,228 @@
   outline: 3px solid rgba(42, 122, 226, 0.3);
   outline-offset: 2px;
 }
+
+/* ==========================================================
+   Teaching and supervision page
+   ========================================================== */
+
+.teaching-intro {
+  margin-bottom: 1.5rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Section navigation */
+
+.teaching-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 2.5rem;
+}
+
+.teaching-navigation a {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #d0d5dd;
+  border-radius: 1rem;
+  color: #344054;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.teaching-navigation a:hover {
+  border-color: #2a7ae2;
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+/* Main sections */
+
+.academic-section {
+  margin-top: 3rem;
+}
+
+.academic-section > h2 {
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.section-introduction {
+  margin-bottom: 1.4rem;
+  color: #667085;
+}
+
+/* Teaching year */
+
+.teaching-year {
+  margin-bottom: 2rem;
+}
+
+.teaching-year__title {
+  margin: 0 0 0.8rem;
+  color: #667085;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Individual entries */
+
+.academic-entry {
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.1rem;
+  border-left: 3px solid #d0d5dd;
+  background-color: #fafafa;
+}
+
+.academic-entry__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.55rem;
+}
+
+.academic-entry__date {
+  margin-left: auto;
+  color: #667085;
+  font-size: 0.8rem;
+}
+
+.academic-entry__title,
+.student-name {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.academic-entry__context {
+  margin: 0 0 0.15rem;
+  font-weight: 600;
+}
+
+.academic-entry__institution {
+  margin: 0;
+  color: #667085;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.thesis-title {
+  margin: 0 0 0.3rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.co-supervision {
+  margin: 0.4rem 0 0;
+  color: #667085;
+  font-size: 0.85rem;
+}
+
+/* Status labels */
+
+.academic-label {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 1rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.academic-label--teaching {
+  background-color: #eef4ff;
+  color: #2458a6;
+}
+
+.academic-label--teaching-assistant {
+  background-color: #f4f3ff;
+  color: #6941c6;
+}
+
+.academic-label--current {
+  background-color: #eef4ff;
+  color: #2458a6;
+}
+
+.academic-label--upcoming {
+  background-color: #fff7e6;
+  color: #9a6700;
+}
+
+.academic-label--completed {
+  background-color: #ecfdf3;
+  color: #067647;
+}
+
+.academic-label--publication {
+  background-color: #f4f3ff;
+  color: #6941c6;
+}
+
+/* Section-specific entry borders */
+
+#current-supervision .academic-entry {
+  border-left-color: #528bda;
+}
+
+#upcoming-supervision .academic-entry {
+  border-left-color: #e0a22b;
+}
+
+#completed-supervision .academic-entry {
+  border-left-color: #35a46f;
+}
+
+/* Resource links */
+
+.academic-entry__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+.academic-resource-link {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid #2a7ae2;
+  border-radius: 4px;
+  color: #2a7ae2;
+  font-size: 0.76rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.academic-resource-link:hover {
+  background-color: #2a7ae2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.academic-resource-link--paper {
+  border-color: #6941c6;
+  color: #6941c6;
+}
+
+.academic-resource-link--paper:hover {
+  background-color: #6941c6;
+  color: #fff;
+}
+
+/* Small screens */
+
+@media screen and (max-width: 700px) {
+  .academic-entry__date {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .academic-entry {
+    padding: 0.9rem;
+  }
+}

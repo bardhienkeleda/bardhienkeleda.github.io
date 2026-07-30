@@ -1,187 +1,675 @@
 ---
 layout: archive
-title: "Teaching & Supervision"
+title: "Supervision & Teaching"
 permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<p class="teaching-intro">
+  My teaching and supervision activities focus on network security,
+  future Internet architectures, programmable networks, machine learning,
+  and neuro-symbolic AI. I contribute through guest lectures, teaching
+  assistance, and the supervision of MSc research projects.
+</p>
 
-<h2> Teaching</h2>
+<section id="upcoming-supervision" class="academic-section">
+  <h2>Upcoming Projects</h2>
 
-<div class="list__wrapper">
-<hr>
+  <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--upcoming">
+        Upcoming
+      </span>
 
-<ul style="list-style-type: none; padding-left: 0;">
-{% assign sorted_teaching = site.teaching | sort: "date" | reverse %}
-{% for post in sorted_teaching %}
+      <span class="academic-entry__date">Expected June 2027</span>
+    </div>
 
-  {% assign label = "📘 Other" %}
-  {% if post.type == "Guest Lecture" %}
-    {% assign label = "🎤 Guest Lecture" %}
-  {% elsif post.type == "Teaching assistant" %}
-    {% assign label = "🧑‍🏫 Teaching Assistant" %}
-  {% elsif post.type == "Instructor" %}
-    {% assign label = "🎓 Instructor" %}
-  {% endif %}
+    <h3 class="student-name">Panagiotis Panagi</h3>
 
-  <li>
-    <span style="
-      background-color: #f2f2f2;
-      padding: 2px 6px;
-      border-radius: 6px;
-      font-size: 0.85em;
-      margin-right: 6px;
-    ">
-      {{ label }}
-    </span>
+        <p class="thesis-title">
+      Bridging the CVE-CAPEC Gap: A Neuro-Symbolic Approach for Automated Vulnerability Classification
+    </p>
 
-    <strong>{{ post.title }}</strong>
-    <span style="color: #555;">
-      — {{ post.venue }} ({{ post.date | date: "%B %Y" }})
-    </span>
+    <p class="academic-entry__institution">
+      MSc thesis, TU Delft
+    </p>
+  </article>
 
-    {% if post.link %}
-      <a href="{{ post.link }}" target="_blank">[slides]</a>
-    {% endif %}
-  </li>
+    <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--upcoming">
+        Upcoming
+      </span>
 
-{% endfor %}
-</ul>
+      <span class="academic-entry__date">Expected June 2027</span>
+    </div>
 
+    <h3 class="student-name">Christos Tamvakas</h3>
+
+        <p class="thesis-title">
+      A Neuro-Symbolic Approach to Provenance-based Intrusion Detection Systems
+    </p>
+
+    <p class="academic-entry__institution">
+      MSc thesis, TU Delft
+    </p>
+  </article>
+
+  <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--upcoming">
+        Upcoming
+      </span>
+
+      <span class="academic-entry__date">Expected June 2027</span>
+    </div>
+
+    <h3 class="student-name">Maaz Akhtar</h3>
+
+        <p class="thesis-title">
+      An Agent-to-Agent Approach for Cybersecurity Question-and-Answering Systems
+    </p>
+
+    <p class="academic-entry__institution">
+      MSc thesis, TU Delft
+    </p>
+  </article>
+
+    <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--upcoming">
+        Upcoming
+      </span>
+
+      <span class="academic-entry__date">Expected June 2027</span>
+    </div>
+
+    <h3 class="student-name">Miguel El Khal</h3>
+
+        <p class="thesis-title">
+      On the Measurement of the AI Impact in Intrusion Detection Systems
+    </p>
+
+    <p class="academic-entry__institution">
+      MSc thesis, TU Delft
+    </p>
+  </article>
+
+  <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--upcoming">
+        Upcoming
+      </span>
+
+      <span class="academic-entry__date">Expected March 2027</span>
+    </div>
+
+    <h3 class="student-name">Antonio Giorgino</h3>
+
+    <p class="thesis-title">
+      Log Analysis for Event Correlation in Security Operations Centers with Realistic Grounding"
+    </p>
+
+    <p class="academic-entry__institution">
+      MSc thesis, Sapienza University of Rome
+    </p>
+
+    <p class="co-supervision">
+      Co-supervised with Prof. Riccardo Lazzeretti, Sapienza University of Rome
+    </p>
+  </article>
+</section>
+
+<section id="current-supervision" class="academic-section">
+  <h2>Current Supervision</h2>
+
+  <!-- <p class="section-introduction">
+    MSc research projects currently under supervision.
+  </p> -->
+
+  <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--current">
+        Current
+      </span>
+
+      <span class="academic-entry__date">Expected December 2026</span>
+    </div>
+
+    <h3 class="student-name">Joaquin Cava Angrill</h3>
+
+    <p class="thesis-title">
+      Detecting and Explaining Concept Drift for Security Applications
+    </p>
+
+    <p class="academic-entry__institution">
+      MSc thesis, TU Delft
+    </p>
+  </article>
+
+  <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--current">
+        Current
+      </span>
+
+      <span class="academic-entry__date">Expected December 2026</span>
+    </div>
+
+    <h3 class="student-name">Johannes Ijpma</h3>
+
+    <p class="thesis-title">
+      Trustworthiness of Performance Metrics in RAN under Timing
+      Degradation Attacks
+    </p>
+
+    <p class="academic-entry__institution">
+      MSc thesis, TU Delft
+    </p>
+
+    <p class="co-supervision">
+      Co-supervised with Dr. Kees Kroep, DoIoT Fieldlab
+    </p>
+  </article>
+
+  <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--current">
+        Current
+      </span>
+
+      <span class="academic-entry__date">Expected December 2026</span>
+    </div>
+
+    <h3 class="student-name">Anna Visman</h3>
+
+    <p class="thesis-title">
+      SOC False Positive Rate Reduction with a Neuro-Symbolic Approach
+    </p>
+
+    <p class="academic-entry__institution">
+      MSc thesis, TU Delft
+    </p>
+    <p class="co-supervision">
+      Co-supervised with Dr. Andrea Agiollo, TU Delft
+    </p>
+  </article>
+
+  <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--current">
+        Current
+      </span>
+
+      <span class="academic-entry__date">Expected December 2026</span>
+    </div>
+
+    <h3 class="student-name">Manya Narkar</h3>
+
+    <p class="thesis-title">
+      LLM-Based Approach for IDS Rule Refinement
+    </p>
+
+    <p class="academic-entry__institution">
+      MSc thesis, TU Delft
+    </p>
+    <p class="co-supervision">
+      Co-supervised with Dr. Koen Teuwen, TU Eindhoven
+    </p>
+  </article>
+</section>
+
+<section id="completed-supervision" class="academic-section">
+  <h2>Completed Supervision</h2>
+
+  <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--completed">
+        Completed
+      </span>
+    </div>
+
+    <h3 class="student-name">Raoul Saad</h3>
+
+    <p class="thesis-title">
+      Towards Local Neuro-Symbolic AI in Network Intrusion Detection Systems
+    </p>
+
+    <p class="academic-entry__institution">
+      MSc thesis, TU Delft
+    </p>
+  <p class="supervision-item__note">
+      Grade: <strong>9/10, Cum Laude</strong>
+  </p>
+   <div class="supervision-item__links">
+    <a      
+      class="academic-resource-link"      
+      href="https://repository.tudelft.nl/record/uuid:f7b68d06-209d-4f77-ad39-b0746c6752da"
+      target="_blank"
+      rel="noopener noreferrer"
+      > Thesis
+    </a>
+        <p class="co-supervision">
+      Co-supervised with Dr. Andrea Agiollo, TU Delft
+    </p>
+    </div>
+  </article>
+
+    <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--completed">
+        Completed
+      </span>
+    </div>
+
+    <h3 class="student-name">Sofia Burkow</h3>
+
+    <p class="thesis-title">
+      Temporal Neuro-Symbolic Reasoning for Multi-Step Attack Detection
+    </p>
+
+    <p class="academic-entry__institution">
+      MSc thesis, TU Delft
+    </p>
+  <p class="supervision-item__note">
+      Grade: <strong>9/10, Cum Laude</strong>
+  </p>
+   <div class="supervision-item__links">
+    <a      
+      class="academic-resource-link"      
+      href="https://repository.tudelft.nl/record/uuid:6ce3bd4d-9901-43dd-9ccf-39258f5f7320"
+      target="_blank"
+      rel="noopener noreferrer"
+      > Thesis
+    </a>
+    <p class="co-supervision">
+      Co-supervised with Dr. Andrea Agiollo, TU Delft
+    </p>
+    </div>
+  </article>
+
+  <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--completed">
+        Completed
+      </span>
+    </div>
+
+    <h3 class="student-name">Andrea Ciccotti</h3>
+
+    <p class="academic-entry__institution">
+      MSc thesis, Sapienza University of Rome
+    </p>
+  </article>
+
+  <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--completed">
+        Completed
+      </span>
+
+      <span class="academic-label academic-label--publication">
+        Thesis to Publication
+      </span>
+    </div>
+
+    <h3 class="student-name">Martina Sgnaolin</h3>
+
+    <p class="thesis-title">
+      Towards the White-Box Security of Programmable Dataplane Networks
+    </p>
+
+    <p class="academic-entry__institution">
+      MSc thesis, Sapienza University of Rome
+    </p>
+
+    <div class="academic-entry__links">
+      <a
+        class="academic-resource-link academic-resource-link--paper"
+        href="https://ieeexplore.ieee.org/abstract/document/10659323/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Paper
+      </a>
+    </div>
+  </article>
+
+  <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--completed">
+        Completed
+      </span>
+    </div>
+
+    <h3 class="student-name">Elisa Berti</h3>
+
+    <p class="academic-entry__institution">
+      MSc thesis, Sapienza University of Rome
+    </p>
+  </article>
+
+  <article class="academic-entry supervision-entry">
+    <div class="academic-entry__header">
+      <span class="academic-label academic-label--completed">
+        Completed
+      </span>
+
+      <span class="academic-label academic-label--publication">
+        Thesis to Publication
+      </span>
+    </div>
+
+    <h3 class="student-name">Ahmed Taffal</h3>
+
+    <p class="thesis-title">
+      Assessment for Named Data Networking Through a Real Testbed
+    </p>
+
+    <p class="academic-entry__institution">
+      MSc thesis, Sapienza University of Rome
+    </p>
+
+    <div class="academic-entry__links">
+      <a
+        class="academic-resource-link academic-resource-link--paper"
+        href="https://dl.acm.org/doi/abs/10.1145/3538969.3544447"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Paper
+      </a>
+    </div>
+  </article>
+</section>
+
+
+
+<section id="teaching" class="academic-section">
+  <h2>Teaching</h2>
+
+  <div class="teaching-year">
+    <h3 class="teaching-year__title">2025</h3>
+
+    <article class="academic-entry">
+      <div class="academic-entry__header">
+        <span class="academic-label academic-label--teaching">
+          Guest Lecture
+        </span>
+
+        <span class="academic-entry__date">May 2025</span>
+      </div>
+
+      <h4 class="academic-entry__title">
+        The Present and the Future of Networking: An AI and Security Perspective
+      </h4>
+
+      <p class="academic-entry__context">
+        Advanced Information System Security and Blockchain
+      </p>
+
+      <p class="academic-entry__institution">
+        Department of Engineering in Computer Science,
+        Sapienza University of Rome
+      </p>
+
+      <div class="academic-entry__links">
+        <a
+        class="academic-resource-link"
+        href="https://drive.google.com/file/d/1dfSf4S4_se2VgMTbSu9P_CAoiXitKNKJ/view"
+        target="_blank"
+        rel="noopener noreferrer"
+>
+        Slides
+      </a>
 </div>
+    </article>
+  </div>
 
+  <div class="teaching-year">
+    <h3 class="teaching-year__title">2023</h3>
 
-<h2> Supervision</h2>
+    <article class="academic-entry">
+      <div class="academic-entry__header">
+        <span class="academic-label academic-label--teaching">
+          Guest Lecture
+        </span>
 
-<div class="list__wrapper">
-<hr>
+        <span class="academic-entry__date">September 2023</span>
+      </div>
 
-<h3>Current</h3>
-<ul style="list-style-type: none; padding-left: 0;">
+      <h4 class="academic-entry__title">
+        Some Network Security Fundamentals
+      </h4>
 
-  <li style="margin-bottom: 0.35em;">
-    <span style="background-color:#e6f4ea; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
-      👩‍🎓 MSc Student
-    </span>
-    <strong>Joaquin Cava Angrill</strong>
-    <span style="color:#555;">
-      — “Detecting and Explaining Concept Drift for Security Applications”, TU Delft (expected December 2026)
-    </span>
-  </li>
+      <p class="academic-entry__context">
+        Computer Networks course
+      </p>
 
-  <li style="margin-bottom: 0.35em;">
-    <span style="background-color:#e6f4ea; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
-      👩‍🎓 MSc Student
-    </span>
-    <strong>Johannes Ijpma</strong>
-    <span style="color:#555;">
-      — “Trustworthiness of Performance Metrics in RAN under Timing Degradation Attacks”, TU Delft (expected December 2026; co-supervised with Dr. Kees Kroep)
-    </span>
-  </li>
+      <p class="academic-entry__institution">
+        Department of Computer Science, Purdue University
+      </p>
 
-  <li style="margin-bottom: 0.35em;">
-    <span style="background-color:#e6f4ea; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
-      👩‍🎓 MSc Student
-    </span>
-    <strong>Raoul Saad</strong>
-    <span style="color:#555;">
-      — Towards Local Neuro-Symbolic AI in Network Intrusion Detection Systems, TU Delft (expected July 2026)
-    </span>
-  </li>
+    <div class="academic-entry__links">
+      <a
+        class="academic-resource-link"
+        href="https://docs.google.com/presentation/d/1fsEMr4w102dIptbzugbubK27_LuoNGhQP3G69pzKzlA/edit?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Slides
+      </a>
+    </div>
+    </article>
+  </div>
 
-  <li style="margin-bottom: 0.35em;">
-    <span style="background-color:#e6f4ea; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
-      👩‍🎓 MSc Student
-    </span>
-    <strong>Anna Visman</strong>
-    <span style="color:#555;">
-      — “SOC False Positive Rate Reduction with a Neuro-Symbolic Approach”, TU Delft (expected September 2026)
-    </span>
-  </li>
+  <div class="teaching-year">
+    <h3 class="teaching-year__title">2022</h3>
 
-  <li style="margin-bottom: 0.35em;">
-    <span style="background-color:#e6f4ea; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
-      👩‍🎓 MSc Student
-    </span>
-    <strong>Sofia Burkow</strong>
-    <span style="color:#555;">
-      — “Temporal Neuro-Symbolic Reasoning for Multi-Step Attack Detection”, TU Delft (expected June 2026; co-supervised with Dr. Andrea Agiollo)
-    </span>
-  </li>
+    <article class="academic-entry">
+      <div class="academic-entry__header">
+        <span class="academic-label academic-label--teaching">
+          Guest Lecture
+        </span>
 
-  <li style="margin-bottom: 0.35em;">
-    <span style="background-color:#e6f4ea; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
-      👩‍🎓 MSc Student
-    </span>
-    <strong>Manya Narkar</strong>
-    <span style="color:#555;">
-      — “LLM-based Approach for IDS Rule Refinement”, TU Delft (expected December 2026)
-    </span>
-  </li>
+        <span class="academic-entry__date">April 2022</span>
+      </div>
 
-</ul>
+      <h4 class="academic-entry__title">
+        Security and Privacy of Future Internet Technologies, Part 2
+      </h4>
 
+      <p class="academic-entry__context">
+        Advanced Information System Security and Blockchain
+      </p>
 
-<h3>Starting Soon</h3>
-<ul style="list-style-type: none; padding-left: 0;">
-  <li style="margin-bottom: 0.35em;">
-    <span style="background-color:#fff4e5; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
-      ⏳ Incoming Student
-    </span>
-    <strong>Panagiotis Panagi</strong>, TU Delft 
-    <span style="color:#555;">(expected June 2027)</span>
-  </li>
+      <p class="academic-entry__institution">
+        Department of Computer Science Engineering,
+        Sapienza University of Rome
+      </p>
 
-  <li style="margin-bottom: 0.35em;">
-    <span style="background-color:#fff4e5; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
-      ⏳ Incoming Student
-    </span>
-    <strong>Antonio Giorgino</strong>, Sapienza University of Rome 
-    <span style="color:#555;">(expected February 2027; co-supervised with Prof. Riccardo Lazzeretti)</span>
-  </li>
-</ul>
+    <div class="academic-entry__links">
+      <a
+        class="academic-resource-link"
+        href="https://drive.google.com/file/d/13zcQfersZAy5DRzy88mgiyqgxJ6grRyg/view"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Slides
+      </a>
+    </div>
+    </article>
 
-<h3> Graduated</h3>
-<ul style="list-style-type: none; padding-left: 0;">
-  <li style="margin-bottom: 0.35em;">
-    <span style="background-color:#e8f0fe; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
-      🎓 MSc Thesis
-    </span>
-    <strong>Andrea Ciccotti,</strong> 
-    <span style="color:#555;"> Sapienza University of Rome </span>
-  </li>
+    <article class="academic-entry">
+      <div class="academic-entry__header">
+        <span class="academic-label academic-label--teaching">
+          Guest Lecture
+        </span>
 
+        <span class="academic-entry__date">April 2022</span>
+      </div>
 
-  <li style="margin-bottom: 0.35em;">
-    <span style="background-color:#e8f0fe; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
-      🎓 MSc Thesis → Paper
-    </span>
-    <strong>Martina Sgnaolin,</strong>
-    <span style="color:#555;">
-    “Towards the White-Box Security of Programmable Dataplane Networks”, Sapienza University of Rome
-    </span>
-    <a href="https://ieeexplore.ieee.org/abstract/document/10659323/" target="_blank">[paper]</a>
-  </li>
+      <h4 class="academic-entry__title">
+        Security and Privacy of Future Internet Technologies, Part 1
+      </h4>
 
+      <p class="academic-entry__context">
+        Advanced Information System Security and Blockchain
+      </p>
 
-  <li style="margin-bottom: 0.35em;">
-    <span style="background-color:#e8f0fe; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
-      🎓 MSc Thesis
-    </span>
-    <strong>Elisa Berti</strong>
-    <span style="color:#555;">, Sapienza University of Rome</span>
-  </li>
+      <p class="academic-entry__institution">
+        Department of Computer Science Engineering,
+        Sapienza University of Rome
+      </p>
 
-  <li style="margin-bottom: 0.35em;">
-    <span style="background-color:#e8f0fe; padding:2px 6px; border-radius:6px; font-size:0.85em; margin-right:6px;">
-      🎓 MSc Thesis → Paper
-    </span>
-    <strong>Ahmed Taffal,</strong>
-    <span style="color:#555;">
-    “Assessment for Named Data Networking Through a Real Testbed”, Sapienza University of Rome
-    </span>
-    <a href="https://dl.acm.org/doi/abs/10.1145/3538969.3544447" target="_blank">[paper]</a>
-  </li>
-</ul>
-</div>
+      <div class="academic-entry__links">
+      <a
+        class="academic-resource-link"
+        href="https://drive.google.com/file/d/1zE38q-N1lWuFIWKHU8zzmXx3IuU1PK33/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Slides
+      </a>
+    </div>
+    </article>
+
+    <article class="academic-entry">
+      <div class="academic-entry__header">
+        <span class="academic-label academic-label--teaching-assistant">
+          Teaching Assistant
+        </span>
+
+        <span class="academic-entry__date">February 2022</span>
+      </div>
+
+      <h4 class="academic-entry__title">
+        Digitisation for Human Resources
+      </h4>
+
+      <p class="academic-entry__institution">
+        Faculty of Law, Sapienza University of Rome
+      </p>
+
+    <div class="academic-entry__links">
+      <a
+        class="academic-resource-link"
+        href="https://www.diag.uniroma1.it/~nanni/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Course material
+      </a>
+    </div>
+    </article>
+  </div>
+
+  <div class="teaching-year">
+    <h3 class="teaching-year__title">2021</h3>
+
+    <article class="academic-entry">
+      <div class="academic-entry__header">
+        <span class="academic-label academic-label--teaching">
+          Guest Lecture
+        </span>
+
+        <span class="academic-entry__date">November 2021</span>
+      </div>
+
+      <h4 class="academic-entry__title">
+        The Road Ahead for the Future Internet: From IP to ICN
+      </h4>
+
+      <p class="academic-entry__context">
+        Computer Network Security
+      </p>
+
+      <p class="academic-entry__institution">
+        Department of Mathematics, University of Padua
+      </p>
+
+    <div class="academic-entry__links">
+      <a
+        class="academic-resource-link"
+        href="https://tinyurl.com/2jjknms3"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Slides
+      </a>
+    </div>
+    </article>
+
+    <article class="academic-entry">
+      <div class="academic-entry__header">
+        <span class="academic-label academic-label--teaching">
+          Guest Lecture
+        </span>
+
+        <span class="academic-entry__date">November 2021</span>
+      </div>
+
+      <h4 class="academic-entry__title">
+        The Road Ahead for the Future Internet: From IP to ICN
+      </h4>
+
+      <p class="academic-entry__context">
+        Sistemi di Calcolo
+      </p>
+
+      <p class="academic-entry__institution">
+        Department of Engineering in Computer Science,
+        Sapienza University of Rome
+      </p>
+
+    <div class="academic-entry__links">
+      <a
+        class="academic-resource-link"
+        href="https://tinyurl.com/yvfs7sd8"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Slides
+      </a>
+    </div>
+    </article>
+  </div>
+
+  <div class="teaching-year">
+    <h3 class="teaching-year__title">2020</h3>
+
+    <article class="academic-entry">
+      <div class="academic-entry__header">
+        <span class="academic-label academic-label--teaching">
+          Guest Lecture
+        </span>
+
+        <span class="academic-entry__date">December 2020</span>
+      </div>
+
+      <h4 class="academic-entry__title">
+        Future Internet Architectures
+      </h4>
+
+      <p class="academic-entry__context">
+        Sistemi di Calcolo
+      </p>
+
+      <p class="academic-entry__institution">
+        Department of Engineering in Computer Science,
+        Sapienza University of Rome
+      </p>
+
+    <div class="academic-entry__links">
+      <a
+        class="academic-resource-link"
+        href="https://tinyurl.com/mtp9xrzz"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Slides
+      </a>
+    </div>
+    </article>
+  </div>
+</section>
