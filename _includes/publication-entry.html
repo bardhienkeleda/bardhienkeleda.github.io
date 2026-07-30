@@ -1,0 +1,59 @@
+{% assign publication = include.post %}
+
+<article class="publication-entry">
+  <h3 class="publication-entry__title">
+    {{ publication.title }}
+
+  </h3>
+
+  {% if publication.authors %}
+    <div class="publication-entry__authors">
+      {{ publication.authors | replace: "Enkeleda Bardhi", "<strong>Enkeleda Bardhi</strong>" }}
+    </div>
+  {% endif %}
+
+  {% if publication.venue or publication.date %}
+    <div class="publication-entry__venue">
+      {% if publication.venue %}
+        <em>{{ publication.venue }}</em>
+      {% endif %}
+
+      {% if publication.date %}
+        {% assign publication_year = publication.date | date: "%Y" %}
+        {% if publication.venue %}
+          {% unless publication.venue contains publication_year %}<span class="publication-entry__year">, {{ publication_year }}</span>{% endunless %}
+        {% else %}
+          <span class="publication-entry__year">{{ publication_year }}</span>
+        {% endif %}
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {% if publication.paperurl or publication.pdfurl or publication.codeurl or publication.slidesurl or publication.websiteurl or publication.bibtexurl %}
+    <div class="publication-entry__links">
+
+      {% if publication.pdfurl %}
+        {{publication.pdfurl | escape }} PDF
+    </a>
+      {% elsif publication.paperurl %}
+        <a class="publication-link--pdf" href="{{ publication.paperurl | escape }}" target="_blank" class="publication-link">PDF</a>
+      {% endif %}
+
+      {% if publication.codeurl %}
+        <a class="publication-link--code" href="{{ publication.codeurl | escape }}" target="_blank" rel="noopener noreferrer">Code</a>
+      {% endif %}
+
+      {% if publication.slidesurl %}
+        <a class="publication-link" href="{{ publication.slidesurl | escape }}" target="_blank" rel="noopener noreferrer">Slides</a>
+      {% endif %}
+
+      {% if publication.websiteurl %}
+        <a class="publication-link" href="{{ publication.websiteurl | escape }}" target="_blank" rel="noopener noreferrer">Website</a>
+      {% endif %}
+
+      {% if publication.bibtexurl %}
+        <a class="publication-link" href="{{ publication.bibtexurl | escape }}" target="_blank" rel="noopener noreferrer">BibTeX</a>
+      {% endif %}
+    </div>
+  {% endif %}
+</article>

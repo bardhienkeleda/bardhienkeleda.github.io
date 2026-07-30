@@ -5,29 +5,59 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my publications in <a href="https://scholar.google.com/citations?user=FQgbdBgAAAAJ&hl=it&oi=ao">Google Scholar</a>.</div>
+<p class="publications-intro">
+  You can also find my publications on
+  <a href="https://scholar.google.com/citations?user=FQgbdBgAAAAJ&hl=en&oi=ao"
+     target="_blank"
+     rel="noopener noreferrer">
+    Google Scholar
+  </a>.
+</p>
+
+{% assign preprints = site.publications
+  | where: "category", "preprints"
+  | sort: "date"
+  | reverse
+%}
+
+{% assign conferences = site.publications
+  | where: "category", "conferences"
+  | sort: "date"
+  | reverse
+%}
+
+{% assign journals = site.publications
+  | where: "category", "manuscripts"
+  | sort: "date"
+  | reverse
+%}
+
+{% if preprints.size > 0 %}
+  <section class="publication-section">
+    <h2 class="publication-section__title">Preprints</h2>
+
+    {% for post in preprints %}
+      {% include publication-entry.html post=post %}
+    {% endfor %}
+  </section>
 {% endif %}
 
-{% include base_path %}
+{% if conferences.size > 0 %}
+  <section class="publication-section">
+    <h2 class="publication-section__title">Conference Papers</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+    {% for post in conferences %}
+      {% include publication-entry.html post=post %}
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+  </section>
+{% endif %}
+
+{% if journals.size > 0 %}
+  <section class="publication-section">
+    <h2 class="publication-section__title">Journal Articles</h2>
+
+    {% for post in journals %}
+      {% include publication-entry.html post=post %}
+    {% endfor %}
+  </section>
 {% endif %}
