@@ -26,6 +26,10 @@
           <span class="publication-entry__year">{{ publication_year }}</span>
         {% endif %}
       {% endif %}
+
+      {% if publication.acceptance_rate %}
+        <span class="publication-entry__badge">Acceptance rate: {{ publication.acceptance_rate }}</span>
+      {% endif %}
     </div>
   {% endif %}
 

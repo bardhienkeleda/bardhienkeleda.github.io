@@ -314,3 +314,23 @@
     padding: 0.9rem;
   }
 }
+
+/* Acceptance rate badge */
+
+.publication-entry__badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.55rem;
+
+  border: 1px solid #b45309;
+  border-radius: 999px;
+  background-color: #fffbeb;
+  color: #b45309;
+
+  font-size: 0.72rem;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.4;
+  vertical-align: middle;
+  white-space: nowrap;
+}
