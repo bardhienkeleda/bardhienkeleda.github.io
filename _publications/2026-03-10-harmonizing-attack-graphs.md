@@ -11,7 +11,7 @@ date: 2026-03-10
 
 venue: "arXiv preprint arXiv:2603.08295"
 
-authors: "Andrea Agiollo, Enkeleda Bardhi, Alessandro Palma, Riccardo Lazzeretti, Stefano Bonomi, Fernando Kuipers"
+authors: "Andrea Agiollo, Enkeleda Bardhi, Alessandro Palma, Riccardo Lazzeretti, Silvia Bonomi, Fernando Kuipers"
 
 paperurl: "https://arxiv.org/abs/2603.08295"
 

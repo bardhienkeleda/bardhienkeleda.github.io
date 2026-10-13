@@ -11,7 +11,7 @@ date: 2026-07-08
 
 venue: "19th ACM Workshop on Artificial Intelligence and Security (AISec 2026), co-located with ACM CCS 2026"
 
-authors: "Lorenzo Di Filippo, Enkeleda Bardhi, Andrea Agiollo, Alessandro Palma, Stefano Bonomi, Fernando Kuipers"
+authors: "Lorenzo Di Filippo, Enkeleda Bardhi, Andrea Agiollo, Alessandro Palma, Silvia Bonomi, Fernando Kuipers"
 
 acceptance_rate: "15%"
 
