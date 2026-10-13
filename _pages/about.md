@@ -31,6 +31,9 @@ I am always open to collaborations and supervising motivated students. If you ar
 </details>
 </li>
 <li>
+<strong>[September 2026]</strong> --> Completed the VR Empathy Training (Personal Situation) from the TU Delft Teaching & Learning Services.
+</li>
+<li>
 <strong>[September 2026]</strong> --> At <a href="https://esorics2026.org/">ESORICS 2026</a> in Rome, hosting the <a href="https://hotdisec.github.io/website_2026/">HotDiSec 2026</a> workshop.
 </li>
 <li>
@@ -76,7 +79,7 @@ I am always open to collaborations and supervising motivated students. If you ar
 </details>
 </li>
 <li>
-<strong>[March 2026]</strong> --> Joined as Editor for  <a href="https://www.sciencedirect.com/journal/computer-networks">Elsevier Computer Networks</a>.
+<strong>[March 2026]</strong> --> Joined as Area Editor for <a href="https://www.sciencedirect.com/journal/computer-networks">Elsevier Computer Networks</a>.
 </li>
 <li>
 <strong>[March 2026]</strong> --> Joined the Program Committee of <a href="https://www.acsac.org">ACSAC 2026</a>.

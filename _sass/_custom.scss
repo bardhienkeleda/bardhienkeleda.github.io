@@ -252,6 +252,11 @@
   color: #6941c6;
 }
 
+.academic-label--training {
+  background-color: #e6f7f5;
+  color: #0f766e;
+}
+
 /* Section-specific entry borders */
 
 #current-supervision .academic-entry {
@@ -264,6 +269,10 @@
 
 #completed-supervision .academic-entry {
   border-left-color: #35a46f;
+}
+
+#professional-development .academic-entry {
+  border-left-color: #14a394;
 }
 
 /* Resource links */
@@ -333,4 +342,107 @@
   line-height: 1.4;
   vertical-align: middle;
   white-space: nowrap;
+}
+
+/* Service & Funding page */
+
+.service-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.service-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.35rem 1rem;
+  margin: 0;
+  padding: 0.6rem 0.9rem;
+  border-left: 3px solid #d0d5dd;
+  border-bottom: 1px solid #f0f1f3;
+  line-height: 1.5;
+}
+
+.service-venue {
+  flex: 1 1 22rem;
+}
+
+.service-role {
+  display: block;
+  color: #667085;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.service-note {
+  color: #667085;
+  font-size: 0.8rem;
+}
+
+.service-tag {
+  display: inline-block;
+  margin-left: 0.3rem;
+  padding: 0 0.45rem;
+  border-radius: 999px;
+  background-color: #fff7e6;
+  color: #9a6700;
+  font-size: 0.7rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.service-years {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.service-year {
+  display: inline-block;
+  padding: 0.05rem 0.5rem;
+  border: 1px solid #d0d5dd;
+  border-radius: 4px;
+  color: #344054;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a.service-year {
+  border-color: #2a7ae2;
+  color: #2a7ae2;
+}
+
+a.service-year:hover {
+  background-color: #2a7ae2;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#editorial .service-row { border-left-color: #6941c6; }
+#organizing .service-row { border-left-color: #e0a22b; }
+#program-committees .service-row { border-left-color: #528bda; }
+#reviewing .service-row { border-left-color: #98a2b3; }
+#community .service-row { border-left-color: #14a394; }
+#awards .academic-entry { border-left-color: #d4a017; }
+#funding .academic-entry { border-left-color: #35a46f; }
+#visits .academic-entry { border-left-color: #528bda; }
+
+.academic-label--award {
+  background-color: #fff7e6;
+  color: #9a6700;
+}
+
+.academic-label--funding {
+  background-color: #ecfdf3;
+  color: #067647;
+}
+
+.academic-label--visit {
+  background-color: #eef4ff;
+  color: #2458a6;
 }
